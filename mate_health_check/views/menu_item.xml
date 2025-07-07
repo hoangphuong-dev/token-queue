@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo noupdate="1">
+    <menuitem id="mate_health_check_department_list_menu" name="Specialty"
+        sequence="10" action="mate_health_check_department_action" />
+    <menuitem id="mate_health_check_package_list_menu" name="Package"
+        sequence="20" action="mate_health_check_package_action" />
+    <menuitem id="mate_health_check_group_sequence_list_menu" name="Group Sequence"
+        sequence="30" action="mate_health_check_group_sequence_action" />
+    <menuitem id="mate_health_check_patient_list_menu" name="Patient"
+        sequence="40" action="mate_health_check_patient_action" />
+
+    <menuitem id="mate_health_check_patient_list_menu_role_coordination" name="Patient (Coordination)"
+        sequence="50" action="action_patient_list_server"/>
+
+    <menuitem id="mate_health_check_queue_list_menu" name="Specialist Doctor" 
+        sequence="70" action="action_queue_list_server"/>
+
+    <menuitem id="mate_health_check_department_list_menu_role_coordination" name="View Room (Coordination)" 
+        sequence="80" action="action_department_list_server"/>
+
+    <menuitem id="menu_department_kanban" name="Departments Management" action="action_department_kanban"/>
+</odoo>
