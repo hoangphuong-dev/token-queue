@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_his_health_check_specialty_tree" model="ir.ui.view">
+        <field name="name">his.health.check.specialty.list</field>
+        <field name="model">physician.specialty</field>
+        <field name="arch" type="xml">
+            <list string="Specialties">
+                <field name="name"/>
+                <field name="department_ids" widget="many2many_tags" column_invisible="1"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_his_health_check_specialty_form" model="ir.ui.view">
+        <field name="name">his.health.check.specialty.form</field>
+        <field name="model">physician.specialty</field>
+        <field name="arch" type="xml">
+            <form string="Specialty">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                    <field name="department_ids">
+                        <list editable="bottom" create="false" delete="false" edit="0">
+                            <field name="code"/>
+                            <field name="name"/>
+                            <field name="location"/>
+                            <field name="capacity"/>
+                        </list>
+                    </field>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_his_health_check_specialty" model="ir.actions.act_window">
+        <field name="name">Specialties</field>
+        <field name="res_model">physician.specialty</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+</odoo>

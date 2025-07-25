@@ -1,0 +1,2110 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* his_health_check
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0-20250605\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-09 09:50+0000\n"
+"PO-Revision-Date: 2025-07-09 09:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__accesses_count
+msgid "# Access Rights"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__groups_count
+msgid "# Groups"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__rules_count
+msgid "# Record Rules"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_department_kanban
+msgid "<span class=\"text-muted small mr-2\">Capacity:</span>"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_department_kanban
+msgid "<span class=\"text-muted small mr-2\">Location:</span>"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_department_kanban
+msgid "<span class=\"text-muted small mr-2\">Specialty:</span>"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_department_kanban
+msgid "<span class=\"text-muted small\">Status:</span>"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "<span>ID: </span>"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_hr_department__code
+#: model:ir.model.fields,help:his_health_check.field_mate_create_department_line_wizard__code
+msgid "A unique code for the department, used for identification."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__api_key_ids
+msgid "API Keys"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__message_needaction
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__active
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__active
+msgid "Active"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__active_lang_count
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__active_lang_count
+msgid "Active Lang Count"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__activity_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__activity_exception_decoration
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__activity_state
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__activity_type_icon
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__additional_info
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__additional_info
+msgid "Additional info"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Address"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__type
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__type
+msgid "Address Type"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__age
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__age
+#: model:ir.model.fields,field_description:his_health_check.field_res_partner__age
+#: model:ir.model.fields,field_description:his_health_check.field_res_users__age
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Age"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__lang
+#: model:ir.model.fields,help:his_health_check.field_his_physician__lang
+msgid ""
+"All the emails and documents sent to this contact will be translated in this"
+" language."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__message_attachment_count
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__avatar_1920
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__avatar_1920
+msgid "Avatar"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__avatar_1024
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__avatar_1024
+msgid "Avatar 1024"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__avatar_128
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__avatar_128
+msgid "Avatar 128"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__avatar_256
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__avatar_256
+msgid "Avatar 256"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__avatar_512
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__avatar_512
+msgid "Avatar 512"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__bank_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__bank_ids
+msgid "Banks"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__barcode
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__barcode
+msgid "Barcode"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Birth Date"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__is_blacklisted
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__is_blacklisted
+msgid "Blacklist"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__mobile_blacklisted
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__mobile_blacklisted
+msgid "Blacklisted Phone Is Mobile"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__phone_blacklisted
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__phone_blacklisted
+msgid "Blacklisted Phone is Phone"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__message_bounce
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__message_bounce
+msgid "Bounce"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__can_publish
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__can_publish
+msgid "Can Publish"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_create_package_wizard_form
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_mate_create_department_wizard_form
+msgid "Cancel"
+msgstr ""
+
+#. module: his_health_check
+#. odoo-python
+#: code:addons/his_health_check/models/schedule.py:0
+msgid ""
+"Cannot create schedule in the past. Start Datetime must be in the future."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__capacity
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_line_wizard__capacity
+msgid "Capacity"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__channel_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__channel_ids
+msgid "Channels"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__is_company
+#: model:ir.model.fields,help:his_health_check.field_his_physician__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__employee
+#: model:ir.model.fields,help:his_health_check.field_his_physician__employee
+msgid "Check this box if this contact is an Employee."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__city
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__city
+msgid "City"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.actions.act_window,help:his_health_check.action_his_health_check_schedule
+msgid "Click to add a Doctor Schedule."
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.actions.act_window,help:his_health_check.action_his_health_check_physician
+msgid "Click to add a Physician."
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.actions.act_window,help:his_health_check.his_health_check_package_action
+msgid "Click to define a new Package."
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.actions.act_window,help:his_health_check.his_health_check_patient_action
+msgid "Click to define a new Patient."
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_create_group_sequence_wizard_form
+msgid "Close"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields.selection,name:his_health_check.selection__hr_department__state__closed
+msgid "Closed"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__code
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_line_wizard__code
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_physician_role__code
+msgid "Code"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__color
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__color
+msgid "Color Index"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__commercial_partner_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__commercial_partner_id
+msgid "Commercial Entity"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__company_ids
+msgid "Companies"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__company_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__company_id
+msgid "Company"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__company_registry
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__company_registry
+msgid "Company ID"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__company_registry_label
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__company_registry_label
+msgid "Company ID Label"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__company_name
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__company_name
+msgid "Company Name"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__commercial_company_name
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__commercial_company_name
+msgid "Company Name Entity"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__company_type
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__company_type
+msgid "Company Type"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__partner_gid
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__partner_gid
+msgid "Company database ID"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__contact_address
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__contact_address
+msgid "Complete Address"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__complete_name
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__complete_name
+msgid "Complete Name"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_res_partner
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__child_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__child_ids
+msgid "Contact"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__message_bounce
+#: model:ir.model.fields,help:his_health_check.field_his_physician__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__country_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__country_id
+msgid "Country"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__country_code
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__country_code
+msgid "Country Code"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.action_mate_create_department_wizard
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_mate_create_department_wizard_form
+msgid "Create Department"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.action_mate_create_group_sequence_wizard
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_create_group_sequence_wizard_form
+msgid "Create Group Sequence"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_create_group_sequence_line_wizard
+msgid "Create Group Sequence Line Wizard"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_create_group_sequence_wizard
+msgid "Create Group Sequence Wizard"
+msgstr ""
+
+#. module: his_health_check
+#. odoo-python
+#: code:addons/his_health_check/models/package.py:0
+#: model:ir.actions.act_window,name:his_health_check.action_mate_create_package_wizard
+#: model:ir.actions.act_window,name:his_health_check.his_health_check_package_form_action
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_create_package_wizard_form
+msgid "Create Package"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_create_package_line_wizard
+msgid "Create Package Line Wizard"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_create_package_wizard
+msgid "Create Package Wizard"
+msgstr ""
+
+#. module: his_health_check
+#. odoo-javascript
+#: code:addons/his_health_check/static/src/components/header_button/header_button.xml:0
+msgid "Create new"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_line_wizard__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_wizard__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_line_wizard__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_wizard__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_line_wizard__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_wizard__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_customer_type__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_group__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_group_order__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_line__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_physician_role__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_schedule__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_physician_specialty__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_product_product__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_line_wizard__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_wizard__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_line_wizard__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_wizard__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_line_wizard__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_wizard__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_customer_type__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_group__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_group_order__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_line__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_physician_role__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_schedule__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_physician_specialty__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_product_product__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_wizard__customer_type
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package__customer_type
+msgid "Customer Type"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__date_of_birth
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__date_of_birth
+#: model:ir.model.fields,field_description:his_health_check.field_res_partner__date_of_birth
+#: model:ir.model.fields,field_description:his_health_check.field_res_users__date_of_birth
+msgid "Date of Birth"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__resource_calendar_id
+msgid "Default Working Hours"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_physician__resource_calendar_id
+msgid ""
+"Define the working schedule of the resource. If not set, the resource will "
+"have fully flexible working hours."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_line_wizard__department_id
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_line_wizard__department_wizard_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_line__department_id
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_department_search
+msgid "Department"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_line_wizard__name
+msgid "Department Name"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.action_department_kanban
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_wizard__department_ids
+#: model:ir.model.fields,field_description:his_health_check.field_physician_specialty__department_ids
+msgid "Departments"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.ui.menu,name:his_health_check.menu_department_kanban
+msgid "Departments Management"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_group__description
+#: model:ir.model.fields,field_description:his_health_check.field_product_product__description
+msgid "Description"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_health_check_group__description
+msgid "Description of the health check group."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_product_product__description
+msgid "Description of the health check service."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_line_wizard__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_wizard__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_line_wizard__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_wizard__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_line_wizard__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_wizard__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_customer_type__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_group__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_group_order__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_line__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_physician_role__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_schedule__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_physician_specialty__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_product_product__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_schedule__doctor_id
+msgid "Doctor"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_schedule_calendar
+msgid "Doctor Schedules"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Doctor's Name"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__partner_share
+#: model:ir.model.fields,help:his_health_check.field_his_physician__partner_share
+msgid ""
+"Either customer (not a user), either shared user. Indicated the current "
+"partner is a customer without access or with a limited access created for "
+"sharing data."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__email
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__email
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Email"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__signature
+msgid "Email Signature"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__employee
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__employee
+msgid "Employee"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_schedule__end_datetime
+msgid "End Datetime"
+msgstr ""
+
+#. module: his_health_check
+#. odoo-python
+#: code:addons/his_health_check/models/schedule.py:0
+msgid "End Datetime must be greater than or equal to Start Datetime."
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Enter Address"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Enter Age"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Enter Email"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Enter Insurance Code"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Enter Name"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Enter Nation"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Enter PID: 8xxxxxxxx"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Enter Phone"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_physician__share
+msgid ""
+"External user with limited access, created only for the purpose of sharing "
+"data."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields.selection,name:his_health_check.selection__create_package_wizard__gender__female
+#: model:ir.model.fields.selection,name:his_health_check.selection__his_health_check_package__gender__female
+#: model:ir.model.fields.selection,name:his_health_check.selection__res_partner__gender__female
+msgid "Female"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__phone_sanitized
+#: model:ir.model.fields,help:his_health_check.field_his_physician__phone_sanitized
+msgid ""
+"Field used to store sanitized phone number. Helps speeding up searches and "
+"comparisons."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__message_follower_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__message_partner_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__activity_type_icon
+#: model:ir.model.fields,help:his_health_check.field_his_physician__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__email_formatted
+#: model:ir.model.fields,help:his_health_check.field_his_physician__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__email_formatted
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__email_formatted
+msgid "Formatted Email"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_wizard__gender
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__gender
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__gender
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package__gender
+#: model:ir.model.fields,field_description:his_health_check.field_res_partner__gender
+#: model:ir.model.fields,field_description:his_health_check.field_res_users__gender
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Gender"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__partner_latitude
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__partner_latitude
+msgid "Geo Latitude"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__partner_longitude
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__partner_longitude
+msgid "Geo Longitude"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_line_wizard__group_id
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_line_wizard__group_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_group_order__group_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_line__group_id
+msgid "Group"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.ui.menu,name:his_health_check.his_health_check_group_sequence_list_menu
+msgid "Group Sequence"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_line_wizard__group_sequence_wizard_id
+msgid "Group Sequence Wizard"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.his_health_check_group_sequence_action
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_wizard__group_sequence_ids
+msgid "Group Sequences"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__groups_id
+msgid "Groups"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__has_message
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_health_check_customer_type
+msgid "Health Check Customer Type"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_hr_department
+msgid "Health Check Department"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_health_check_group
+msgid "Health Check Group"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_group_sequence_form
+msgid "Health Check Group Sequence"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_health_check_package
+msgid "Health Check Package"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_health_check_package_group_order
+msgid "Health Check Package Group Order"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_health_check_package_line
+msgid "Health Check Package Line"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__package_ids
+msgid "Health Check Packages"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_patient
+msgid "Health Check Patient"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_physician
+msgid "Health Check Physician"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_health_check_schedule
+msgid "Health Check Schedule"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_product_product
+msgid "Health Check Service"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_physician_specialty
+msgid "Health Check Specialty"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__package_ids
+msgid "Health check packages associated with the patient"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__action_id
+msgid "Home Action"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_line_wizard__id
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_wizard__id
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_line_wizard__id
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_wizard__id
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__id
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__id
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_line_wizard__id
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_wizard__id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_customer_type__id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_group__id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package__id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_group_order__id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_line__id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_physician_role__id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_schedule__id
+#: model:ir.model.fields,field_description:his_health_check.field_physician_specialty__id
+#: model:ir.model.fields,field_description:his_health_check.field_product_product__id
+msgid "ID"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__im_status
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__im_status
+msgid "IM Status"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__activity_exception_icon
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__activity_exception_icon
+#: model:ir.model.fields,help:his_health_check.field_his_physician__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Identification information"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__message_needaction
+#: model:ir.model.fields,help:his_health_check.field_his_physician__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__message_has_error
+#: model:ir.model.fields,help:his_health_check.field_his_patient__message_has_sms_error
+#: model:ir.model.fields,help:his_health_check.field_his_physician__message_has_error
+#: model:ir.model.fields,help:his_health_check.field_his_physician__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_physician__action_id
+msgid ""
+"If specified, this action will be opened at log on for this user, in "
+"addition to the standard menu."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__is_blacklisted
+#: model:ir.model.fields,help:his_health_check.field_his_physician__is_blacklisted
+msgid ""
+"If the email address is on the blacklist, the contact won't receive mass "
+"mailing anymore, from any list"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__phone_sanitized_blacklisted
+#: model:ir.model.fields,help:his_health_check.field_his_physician__phone_sanitized_blacklisted
+msgid ""
+"If the sanitized phone number is on the blacklist, the contact won't receive"
+" mass mailing sms anymore, from any list"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__image_1920
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__image_1920
+msgid "Image"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__image_1024
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__image_1024
+msgid "Image 1024"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__image_128
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__image_128
+msgid "Image 128"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__image_256
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__image_256
+msgid "Image 256"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__image_512
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__image_512
+msgid "Image 512"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__mobile_blacklisted
+#: model:ir.model.fields,help:his_health_check.field_his_physician__mobile_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a mobile number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__phone_blacklisted
+#: model:ir.model.fields,help:his_health_check.field_his_physician__phone_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a phone number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__industry_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__industry_id
+msgid "Industry"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__contact_address_inline
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__contact_address_inline
+msgid "Inlined Complete Address"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__insurance_code
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Insurance Code"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__insurance_code
+msgid "Insurance code of the patient"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__message_is_follower
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__is_gp
+msgid "Is Gp"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__is_public
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__is_public
+msgid "Is Public"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__is_published
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__is_published
+msgid "Is Published"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__is_specialist
+msgid "Is Specialist"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__is_company
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__is_company
+msgid "Is a Company"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__function
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__function
+msgid "Job Position"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_physician__password
+msgid ""
+"Keep empty if you don't want the user to be able to connect on the system."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__lang
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__lang
+msgid "Language"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_line_wizard__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_wizard__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_line_wizard__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_wizard__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_line_wizard__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_wizard__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_customer_type__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_group__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_group_order__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_line__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_physician_role__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_schedule__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_physician_specialty__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_product_product__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_line_wizard__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_wizard__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_line_wizard__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_wizard__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_line_wizard__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_wizard__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_customer_type__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_group__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_group_order__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_line__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_physician_role__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_schedule__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_physician_specialty__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_product_product__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__login_date
+msgid "Latest authentication"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_mate_create_department_wizard__department_ids
+msgid "List of departments under the selected specialty."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_create_package_wizard__package_line_ids
+msgid "List of package lines under the selected package."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__location
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_line_wizard__location
+msgid "Location"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__login
+msgid "Login"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Lịch làm việc"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields.selection,name:his_health_check.selection__create_package_wizard__gender__male
+#: model:ir.model.fields.selection,name:his_health_check.selection__his_health_check_package__gender__male
+#: model:ir.model.fields.selection,name:his_health_check.selection__res_partner__gender__male
+msgid "Male"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__message_has_error
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__message_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__mobile
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__mobile
+msgid "Mobile"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__my_activity_date_deadline
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__name
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__name
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_customer_type__name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_group__name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package__name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_group_order__name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_schedule__name
+#: model:ir.model.fields,field_description:his_health_check.field_physician_specialty__name
+#: model:ir.model.fields,field_description:his_health_check.field_product_product__name
+#: model:ir.model.fields,field_description:his_health_check.field_res_partner__name
+#: model:ir.model.fields,field_description:his_health_check.field_res_users__name
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Name"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__package_name
+msgid "Name of the health check package associated with the patient"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__nation
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Nation"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__nationality_id
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Nationality"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__activity_date_deadline
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__activity_summary
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__activity_type_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__email_normalized
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__email_normalized
+msgid "Normalized Email"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__comment
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__comment
+msgid "Notes"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__notification_type
+msgid "Notification"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__message_needaction_counter
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__companies_count
+msgid "Number of Companies"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_physician__accesses_count
+msgid "Number of access rights that apply to the current user"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__message_has_error_counter
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_physician__groups_count
+msgid "Number of groups that apply to the current user"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__message_needaction_counter
+#: model:ir.model.fields,help:his_health_check.field_his_physician__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__message_has_error_counter
+#: model:ir.model.fields,help:his_health_check.field_his_physician__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_physician__rules_count
+msgid "Number of record rules that apply to the current user"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__odoobot_state
+msgid "OdooBot Status"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__odoobot_failed
+msgid "Odoobot Failed"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__tour_enabled
+msgid "Onboarding"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields.selection,name:his_health_check.selection__hr_department__state__open
+msgid "Open"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields.selection,name:his_health_check.selection__create_package_wizard__gender__other
+#: model:ir.model.fields.selection,name:his_health_check.selection__his_health_check_package__gender__other
+#: model:ir.model.fields.selection,name:his_health_check.selection__res_partner__gender__other
+msgid "Other"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__patient_id_number
+msgid "PID"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "PID:"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.his_health_check_package_action
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_line_wizard__package_id
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_wizard__package_id
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_line_wizard__package_wizard_id
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_wizard__package_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__package_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__package_name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_group_order__package_id
+#: model:ir.ui.menu,name:his_health_check.his_health_check_package_list_menu
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_package_search
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_create_package_wizard_form
+msgid "Package"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_wizard__package_line_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__package_line_ids
+msgid "Package Lines"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__package_id
+msgid "Package assigned to the patient for health checks"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Package contents"
+msgstr ""
+
+#. module: his_health_check
+#. odoo-python
+#: code:addons/his_health_check/wizard/create_group_sequence_wizard.py:0
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_line__package_id
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Packages"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__parent_name
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__parent_name
+msgid "Parent name"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__active_partner
+msgid "Partner is Active"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__same_company_registry_partner_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__same_company_registry_partner_id
+msgid "Partner with same Company Registry"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__same_vat_partner_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__same_vat_partner_id
+msgid "Partner with same Tax ID"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__partner_id
+msgid "Partner-related data of the Patient"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_physician__partner_id
+msgid "Partner-related data of the user"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__password
+msgid "Password"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.his_health_check_patient_action
+#: model:ir.ui.menu,name:his_health_check.his_health_check_patient_list_menu
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_search
+msgid "Patient"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.ui.menu,name:his_health_check.his_health_check_patient_list_menu_role_coordination
+msgid "Patient (Coordination)"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__patient_id_number
+msgid "Patient ID"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.actions.server,name:his_health_check.action_patient_list_server
+msgid "Patient List"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__phone
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__phone
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Phone"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__phone_sanitized_blacklisted
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__phone_sanitized_blacklisted
+msgid "Phone Blacklisted"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__phone_mobile_search
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__phone_mobile_search
+msgid "Phone/Mobile"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.ui.menu,name:his_health_check.his_health_check_physician_list_menu
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Physician"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__code
+msgid "Physician Code"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_health_check_physician_role
+msgid "Physician Role"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.action_his_health_check_physician
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_tree
+msgid "Physicians"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_physician__notification_type
+msgid ""
+"Policy on how to handle Chatter notifications:\n"
+"- Handle by Emails: notifications are sent to your email address\n"
+"- Handle in Odoo: notifications appear in your Odoo Inbox"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Priority Level"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__priority_level
+msgid "Priority Levels"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__priority_level
+msgid "Priority levels assigned to the patient for health checks"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.actions.server,name:his_health_check.action_department_list_server
+#: model:ir.actions.server,name:his_health_check.action_queue_list_server
+msgid "Queue List"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__ref
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__ref
+msgid "Reference"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Registration information"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__parent_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__parent_id
+msgid "Related Company"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__partner_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__partner_id
+msgid "Related Partner"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__user_id
+msgid "Related User"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__res_users_settings_ids
+msgid "Res Users Settings"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__resource_ids
+msgid "Resources"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__activity_user_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__website_id
+#: model:ir.model.fields,help:his_health_check.field_his_physician__website_id
+msgid "Restrict to a specific website."
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Role"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_physician_role__name
+msgid "Role Name"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__role_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__role_names
+msgid "Roles"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_schedule__room_id
+msgid "Room"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__message_has_sms_error
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__user_id
+msgid "Salesperson"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__phone_sanitized
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__phone_sanitized
+msgid "Sanitized Number"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_create_group_sequence_wizard_form
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_create_package_wizard_form
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_mate_create_department_wizard_form
+msgid "Save"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.ui.menu,name:his_health_check.his_health_check_schedule_list_menu
+msgid "Schedule"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.action_his_health_check_schedule
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__schedule_ids
+msgid "Schedules"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Select Birth Date"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Select Gender"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Select Nationality"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Select Packages"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Select Priority Level"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_mate_create_department_wizard__specialty_id
+msgid "Select the specialty associated with this department."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__self
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__self
+msgid "Self"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_line_wizard__sequence
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_group_order__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_line_wizard__service_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_line__service_id
+msgid "Service"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package__package_line_ids
+msgid "Services"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__new_password
+msgid "Set Password"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__res_users_settings_id
+msgid "Settings"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__partner_share
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__partner_share
+msgid "Share Partner"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__share
+msgid "Share User"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__signup_type
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__signup_type
+msgid "Signup Token Type"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.ui.menu,name:his_health_check.his_health_check_queue_list_menu
+msgid "Specialist Doctor"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.action_his_health_check_specialty
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__specialty_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__specialty_names
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_specialty_tree
+msgid "Specialties"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_line_wizard__specialty_id
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__specialty_id
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_wizard__specialty_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_line__specialty_id
+#: model:ir.ui.menu,name:his_health_check.his_health_check_department_list_menu
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_mate_create_department_wizard_form
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_specialty_form
+msgid "Specialty"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_physician__new_password
+msgid ""
+"Specify a value only when creating a user or if you're changing the user's "
+"password, otherwise leave empty. After a change of password, the user has to"
+" login again."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__starred_message_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__starred_message_ids
+msgid "Starred Message"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_schedule__start_datetime
+msgid "Start Datetime"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__state_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__state_id
+msgid "State"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__state
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__state
+msgid "Status"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__activity_state
+#: model:ir.model.fields,help:his_health_check.field_his_physician__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__street
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__street
+msgid "Street"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__street2
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__street2
+msgid "Street2"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__category_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__category_id
+msgid "Tags"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__vat
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__vat
+msgid "Tax ID"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__vat_label
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__vat_label
+msgid "Tax ID Label"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__country_code
+#: model:ir.model.fields,help:his_health_check.field_his_physician__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__vat
+#: model:ir.model.fields,help:his_health_check.field_his_physician__vat
+msgid ""
+"The Tax Identification Number. Values here will be validated based on the "
+"country format. You can use '/' to indicate that the partner is not subject "
+"to tax."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.constraint,message:his_health_check.constraint_hr_department_code_uniq
+msgid "The code must be unique for each department."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_physician__company_id
+msgid "The default company for this user."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_mate_create_department_line_wizard__department_wizard_id
+msgid "The department associated with this line."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_create_package_line_wizard__department_id
+#: model:ir.model.fields,help:his_health_check.field_his_health_check_package_line__department_id
+msgid "The department where this health check service is provided."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_physician_specialty__department_ids
+msgid "The departments associated with this health check specialty."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__website_url
+#: model:ir.model.fields,help:his_health_check.field_his_physician__website_url
+msgid "The full URL to access the document through the website."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_create_package_wizard__gender
+#: model:ir.model.fields,help:his_health_check.field_his_health_check_package__gender
+msgid "The gender associated with this health check package."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_create_package_line_wizard__group_id
+#: model:ir.model.fields,help:his_health_check.field_his_health_check_package_line__group_id
+msgid "The group associated with this health check service."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_create_group_sequence_line_wizard__group_id
+msgid "The group associated with this line."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_health_check_package_group_order__group_id
+msgid "The group associated with this sequence."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_create_group_sequence_line_wizard__group_sequence_wizard_id
+msgid "The group sequence wizard associated with this line."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_create_group_sequence_wizard__group_sequence_ids
+msgid "The group sequences associated with this wizard."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_health_check_package_line__package_id
+msgid "The health check packages that include this service."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_create_package_line_wizard__service_id
+#: model:ir.model.fields,help:his_health_check.field_his_health_check_package_line__service_id
+msgid "The health check service provided in this package line."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__user_id
+msgid "The internal user in charge of this contact."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_hr_department__capacity
+#: model:ir.model.fields,help:his_health_check.field_mate_create_department_line_wizard__capacity
+msgid ""
+"The maximum number of patients that can be accommodated in this department."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_mate_create_department_line_wizard__name
+msgid "The name of the department."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_create_group_sequence_line_wizard__package_id
+msgid "The package associated with this line."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_health_check_package_group_order__package_id
+msgid "The package associated with this sequence."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_hr_department__location
+#: model:ir.model.fields,help:his_health_check.field_mate_create_department_line_wizard__location
+msgid "The physical location of the department."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__company_registry
+#: model:ir.model.fields,help:his_health_check.field_his_physician__company_registry
+msgid ""
+"The registry number of the company. Use it if it is different from the Tax "
+"ID. It must be unique across all partners of a same country"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_create_group_sequence_line_wizard__sequence
+msgid "The sequence associated with this line."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_health_check_package__package_line_ids
+msgid "The services included in this health check package."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_hr_department__specialty_id
+msgid "The specialty associated with this department."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_create_package_line_wizard__specialty_id
+#: model:ir.model.fields,help:his_health_check.field_his_health_check_package_line__specialty_id
+msgid "The specialty associated with this health check service."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_create_package_wizard__customer_type
+#: model:ir.model.fields,help:his_health_check.field_his_health_check_package__customer_type
+msgid "The type of customer for this health check package."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__email_normalized
+#: model:ir.model.fields,help:his_health_check.field_his_physician__email_normalized
+msgid ""
+"This field is used to search on email address as the primary email field can"
+" contain more than strictly an email address."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__tz
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__tz
+msgid "Timezone"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__tz_offset
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__tz_offset
+msgid "Timezone offset"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__title
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__title
+msgid "Title"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__totp_secret
+msgid "Totp Secret"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__totp_trusted_device_ids
+msgid "Trusted Devices"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__totp_enabled
+msgid "Two-factor authentication"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__activity_exception_decoration
+#: model:ir.model.fields,help:his_health_check.field_his_physician__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__barcode
+#: model:ir.model.fields,help:his_health_check.field_his_physician__barcode
+msgid "Use a barcode to identify this contact."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_physician__login
+msgid "Used to log into the system"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__user_group_warning
+msgid "User Group Warning"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__device_ids
+msgid "User devices"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__log_ids
+msgid "User log entries"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_physician__user_id
+msgid "User-related data of the physician"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__user_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__user_ids
+msgid "Users"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.ui.menu,name:his_health_check.his_health_check_department_list_menu_role_coordination
+msgid "View Room (Coordination)"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__website_published
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__website_published
+msgid "Visible on current website"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__visitor_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__visitor_ids
+msgid "Visitors"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__website_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__website_id
+msgid "Website"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__website
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__website
+msgid "Website Link"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__website_message_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__website_url
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__website_url
+msgid "Website URL"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__website_message_ids
+#: model:ir.model.fields,help:his_health_check.field_his_physician__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_his_patient__tz
+#: model:ir.model.fields,help:his_health_check.field_his_physician__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your web client."
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__zip
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__zip
+msgid "Zip"
+msgstr ""
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "example@domain.com"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_mate_create_department_line_wizard
+msgid "mate.create.department.line.wizard"
+msgstr ""
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_mate_create_department_wizard
+msgid "mate.create.department.wizard"
+msgstr ""
+
+#. module: his_health_check
+#. odoo-python
+#: code:addons/his_health_check/models/department.py:0
+msgid""
+ "Cannot close room because there are %d patients waiting or being served."
+msgstr ""

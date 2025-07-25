@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_his_health_check_physician_tree" model="ir.ui.view">
+        <field name="name">his.physician.list</field>
+        <field name="model">his.physician</field>
+        <field name="arch" type="xml">
+            <list string="Physicians">
+                <field name="code"/>
+                <field name="name"/>
+                <field name="specialty_names"/>
+                <field name="role_names"/>
+                <field name="email"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_his_health_check_physician_form" model="ir.ui.view">
+        <field name="name">his.physician.form</field>
+        <field name="model">his.physician</field>
+        <field name="arch" type="xml">
+            <form string="Physician">
+                <sheet>
+                    <div class='d-flex form_patient w-100'>
+                        <div class="d-flex flex-column align-items-center">
+                            <field name="image_1920" widget="image" class="oe_avatar" options="{'preview_image': 'image_1920'}" />
+                            <div>
+                                <span>ID: </span>
+                                <field name="code"/>
+                            </div>
+                        </div>
+                        <div class="w-100">
+                            <div class="oe_title">
+                                <label for="name" string="Name" class="oe_edit_only" />
+                                <h1>
+                                    <field name="name" placeholder="Doctor's Name" />
+                                </h1>
+                            </div>
+                            
+                            <group>
+                                <field name="parent_id" invisible="1" />
+                                <group>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="input-group">
+                                                <label for="gender" string="Gender" class="o_form_label"/>
+                                                <field name="gender" placeholder="Select Gender" />
+                                            </div>
+                                        </div>
+
+                                        <div class="col">
+                                            <label for="birthday" string="Birth Date" class="o_form_label"/>
+                                            <field name="birthday" placeholder="Select Birth Date" />
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col">
+                                            <label for="street" string="Address" class="o_form_label"/>
+                                            <field name="street" placeholder="Enter Address" class="o_address_street" />
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="input-group">
+                                                <label for="phone" string="Phone" class="o_form_label"/>
+                                                <field name="phone" placeholder="Enter Phone" widget="phone" />
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="input-group">
+                                                <label for="email" string="Email" class="o_form_label"/>
+                                                <field name="email" widget="email" required="1" placeholder="Enter Email"  />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </group>
+                                <group>
+                                    <div class= "input-group">
+                                        <label for="role_ids" string="Role" class="o_form_label"/>
+                                        <field name="role_ids" widget="many2many_tags"/>
+                                    </div>
+                                    <div class= "input-group">
+                                        <label for="specialty_ids" string="Specialty" class="o_form_label"/>
+                                        <field name="specialty_ids" widget="many2many_tags"/>
+                                    </div>
+                                </group>
+                            </group>
+                        </div>
+                    </div>
+                    <notebook>
+                        <page string="Lịch làm việc">
+                            <field name="schedule_ids" widget="one2many">
+                            <list editable="bottom">
+                                <field name="room_id" />
+                                <field name="start_datetime" />
+                                <field name="end_datetime" />
+                            </list>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_his_health_check_physician" model="ir.actions.act_window">
+        <field name="name">Physicians</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">his.physician</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Click to add a Physician.
+            </p>
+        </field>
+    </record>
+</odoo>

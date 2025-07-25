@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_token_cancel_wizard_form" model="ir.ui.view">
+        <field name="name">his.queue.token.cancel.wizard.form</field>
+        <field name="model">his.queue.token.cancel.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="token_id" invisible="1"/>
+                    </group>
+                    <group>
+                        <field name="cancellation_reason" widget="radio" required="1"/>
+                    </group>
+                    
+                    <group string="Lý do khác:" invisible="cancellation_reason != 'other'">
+                        <field name="custom_reason" nolabel="1" placeholder="Điền lý do khác"/>
+                    </group>
+                    
+                    <group string="Chi tiết bổ sung" invisible="cancellation_reason == 'other'">
+                        <field name="custom_reason" nolabel="1" placeholder="Thông tin chi tiết về lý do từ chối (không bắt buộc)"/>
+                    </group>
+                </sheet>
+                
+                <footer>
+                    <button string="Hủy" class="btn-secondary" special="cancel"/>
+                    <button string="Xác nhận" name="action_confirm_cancel" type="object" class="btn-primary"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <!-- Action for the wizard -->
+    <record id="action_token_cancel_wizard" model="ir.actions.act_window">
+        <field name="name">Lý do từ chối</field>
+        <field name="res_model">his.queue.token.cancel.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+</odoo>

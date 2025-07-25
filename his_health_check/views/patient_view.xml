@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="his_health_check_patient_search" model="ir.ui.view">
+        <field name="name">his_health_check.patient.search</field>
+        <field name="model">his.patient</field>
+        <field name="arch" type="xml">
+            <search string="Patient">
+                <field name="name" filter_domain="['|', '|', ('name', 'ilike', self), ('code', 'ilike', self), ('phone', 'ilike', self)]" />
+            </search>
+        </field>
+    </record>
+
+    <record id="his_health_check_patient_list_view" model="ir.ui.view">
+        <field name="name">his.patient.list</field>
+        <field name="model">his.patient</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="priority_level" />
+                <field name="name" />
+                <field name="code" />
+            </list>
+        </field>
+    </record>
+
+    <record id="his_health_check_patient_form_view" model="ir.ui.view">
+        <field name="name">his.patient.form</field>
+        <field name="model">his.patient</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class='d-flex form_patient w-100'>
+                        <div class="d-flex flex-column align-items-center">
+                            <field name="image_1920" widget="image" class="oe_avatar" options="{'preview_image': 'image_128'}" />
+                            <div> PID: <field name="code" placeholder="Enter PID: 8xxxxxxxx" />
+                            </div>
+                        </div>
+                        <div class="w-100">
+                            <group>
+                                <group>
+                                    <div class="label_header">
+                                        Identification information
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="input-group">
+                                                <label for="name" string="Name" class="o_form_label"/>
+                                                <field name="name" placeholder="Enter Name" />
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="birthday" string="Birth Date" class="o_form_label"/>
+                                                <field name="birthday" placeholder="Select Birth Date" />
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="nationality_id" string="Nationality" class="o_form_label"/>
+                                                <field name="nationality_id" placeholder="Select Nationality" />
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="input-group">
+                                                <label for="gender" string="Gender" class="o_form_label"/>
+                                                <field name="gender" placeholder="Select Gender" />
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="age" string="Age" class="o_form_label"/>
+                                                <field name="age" placeholder="Enter Age" />
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="caste" string="Caste" class="o_form_label"/>
+                                                <field name="caste" placeholder="Enter caste" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="insurance_code" string="Insurance Code" class="o_form_label"/>
+                                        <field name="insurance_code" placeholder="Enter Insurance Code" />
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="input-group">
+                                                <label for="phone" string="Phone" class="o_form_label"/>
+                                                <field name="phone" placeholder="Enter Phone" widget="phone" />
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="input-group">
+                                                <label for="email" string="Email" class="o_form_label"/>
+                                                <field name="email" placeholder="example@domain.com" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="street" string="Address" class="o_form_label"/>
+                                        <field name="street" placeholder="Enter Address"/>
+                                    </div>
+                                </group>
+                                <group>
+                                    <div class="label_header">
+                                        Registration information
+                                    </div>
+                                    <div class="input-group">
+                                        <label for="priority_level" string="Priority Level" class="o_form_label"/>
+                                        <field name="priority_level" placeholder="Select Priority Level" />
+                                    </div>
+                                </group>
+                            </group>
+                        </div>
+                    </div>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="his_health_check_patient_action" model="ir.actions.act_window">
+        <field name="name">Patient</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">his.patient</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="his_health_check_patient_search" />
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Click to define a new Patient.
+            </p>
+        </field>
+    </record>
+
+    <record id="action_patient_list_server" model="ir.actions.server">
+        <field name="name">Patient List</field>
+        <field name="model_id" ref="model_his_patient" />
+        <field name="state">code</field>
+        <field name="code">action = model.action_open_smart_queue_view()</field>
+    </record>
+    <record id="action_queue_list_server" model="ir.actions.server">
+        <field name="name">Queue List</field>
+        <field name="model_id" ref="model_his_patient" />
+        <field name="state">code</field>
+        <field name="code">action = model.action_open_queue_list_view()</field>
+    </record>
+
+</odoo>

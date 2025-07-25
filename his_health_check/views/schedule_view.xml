@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_his_health_check_schedule_calendar" model="ir.ui.view">
+        <field name="name">his.health.check.schedule.calendar</field>
+        <field name="model">his.health.check.schedule</field>
+        <field name="type">calendar</field>
+        <field name="arch" type="xml">
+            <calendar string="Doctor Schedules" color="doctor_id" date_start="start_datetime" date_stop="end_datetime">
+                <field name="doctor_id"/>
+                <field name="room_id"/>
+            </calendar>
+        </field>
+    </record>
+
+    <record id="view_his_health_check_schedule_list" model="ir.ui.view">
+        <field name="name">his.health.check.schedule.list</field>
+        <field name="model">his.health.check.schedule</field>
+        <field name="type">list</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name" column_invisible="1"/>
+                <field name="doctor_id"/>
+                <field name="room_id"/>
+                <field name="start_datetime"/>
+                <field name="end_datetime"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_his_health_check_schedule_form" model="ir.ui.view">
+        <field name="name">his.health.check.schedule.form</field>
+        <field name="model">his.health.check.schedule</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name" invisible="1"/>
+                        <field name="doctor_id"/>
+                        <field name="room_id"/>
+                    </group>
+                    <group>
+                        <field name="start_datetime"/>
+                        <field name="end_datetime"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_his_health_check_schedule" model="ir.actions.act_window">
+        <field name="name">Schedules</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">his.health.check.schedule</field>
+        <field name="view_mode">calendar,list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Click to add a Doctor Schedule.
+            </p>
+        </field>
+    </record>
+</odoo>

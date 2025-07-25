@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Demo Physician Roles -->
+        <record id="physician_role_gp" model="his.health.check.physician.role">
+            <field name="name">Bác sĩ GP</field>
+            <field name="code">GP</field>
+        </record>
+        <record id="physician_role_specialist" model="his.health.check.physician.role">
+            <field name="name">Bác sĩ chuyên khoa</field>
+            <field name="code">SPECIALIST</field>
+        </record>
+
+        <!-- Demo Users for Physicians -->
+        <record id="demo_physician_user_1" model="res.users">
+            <field name="name">Bác sĩ Nguyễn Văn A</field>
+            <field name="login">bacsia</field>
+            <field name="email">bacsia@example.com</field>
+            <field name="groups_id" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+        <record id="demo_physician_user_2" model="res.users">
+            <field name="name">Bác sĩ Trần Thị B</field>
+            <field name="login">bacsib</field>
+            <field name="email">bacsib@example.com</field>
+            <field name="groups_id" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+        <record id="demo_physician_user_3" model="res.users">
+            <field name="name">Bác sĩ Lê Văn C</field>
+            <field name="login">bacsic</field>
+            <field name="email">bacsic@example.com</field>
+            <field name="groups_id" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+        <record id="demo_physician_user_4" model="res.users">
+            <field name="name">Bác sĩ Phạm Thị D</field>
+            <field name="login">bacsid</field>
+            <field name="email">bacsid@example.com</field>
+            <field name="groups_id" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+
+        <!-- Demo Physicians -->
+        <record id="physician_nguyenvana" model="his.physician">
+            <field name="user_id" ref="demo_physician_user_1"/>
+            <field name="code">BS001</field>
+            <field name="gender">male</field>
+            <field name="birthday">1980-01-01</field>
+            <field name="phone">0909123456</field>
+            <field name="email">bacsia@example.com</field>
+            <field name="street">123 Đường A, Quận 1, TP.HCM</field>
+            <field name="specialty_ids" eval="[(4, ref('specialty_internal'))]"/>
+            <field name="role_ids" eval="[(4, ref('physician_role_gp'))]"/>
+        </record>
+        <record id="physician_tranthib" model="his.physician">
+            <field name="user_id" ref="demo_physician_user_2"/>
+            <field name="code">BS002</field>
+            <field name="gender">female</field>
+            <field name="birthday">1985-05-10</field>
+            <field name="phone">0912345678</field>
+            <field name="email">bacsib@example.com</field>
+            <field name="street">456 Đường B, Quận 2, TP.HCM</field>
+            <field name="specialty_ids" eval="[(4, ref('specialty_ophthalmology'))]"/>
+            <field name="role_ids" eval="[(4, ref('physician_role_specialist'))]"/>
+        </record>
+        <record id="physician_levanc" model="his.physician">
+            <field name="user_id" ref="demo_physician_user_3"/>
+            <field name="code">BS003</field>
+            <field name="gender">male</field>
+            <field name="birthday">1978-09-15</field>
+            <field name="phone">0923456789</field>
+            <field name="email">bacsic@example.com</field>
+            <field name="street">789 Đường C, Quận 3, TP.HCM</field>
+            <field name="specialty_ids" eval="[(4, ref('specialty_ent'))]"/>
+            <field name="role_ids" eval="[(4, ref('physician_role_specialist'))]"/>
+        </record>
+        <record id="physician_phamthid" model="his.physician">
+            <field name="user_id" ref="demo_physician_user_4"/>
+            <field name="code">BS004</field>
+            <field name="gender">female</field>
+            <field name="birthday">1990-12-20</field>
+            <field name="phone">0934567890</field>
+            <field name="email">bacsid@example.com</field>
+            <field name="street">321 Đường D, Quận 4, TP.HCM</field>
+            <field name="specialty_ids" eval="[(4, ref('specialty_dermatology'))]"/>
+            <field name="role_ids" eval="[(4, ref('physician_role_gp'))]"/>
+        </record>
+    </data>
+</odoo>

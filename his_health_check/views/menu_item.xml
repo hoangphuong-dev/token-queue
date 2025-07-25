@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo noupdate="1">
+    <menuitem id="his_health_check_department_list_menu" name="Specialty" sequence="10" action="action_his_health_check_specialty" />
+    
+    <menuitem id="his_health_check_package_list_menu" name="Package" sequence="20" action="his_health_check_package_action" />
+    
+    <menuitem id="his_health_check_group_sequence_list_menu" name="Group Sequence" sequence="30" action="his_health_check_group_sequence_action" />
+    
+    <menuitem id="his_health_check_patient_list_menu" name="Patient" sequence="40" action="his_health_check_patient_action" />
+
+    <menuitem id="his_health_check_patient_list_menu_role_coordination" name="Patient (Coordination)" sequence="50" action="action_patient_list_server"/>
+
+    <menuitem id="his_health_check_queue_list_menu" name="Specialist Doctor" sequence="70" action="action_queue_list_server"/>
+
+    <menuitem id="his_health_check_department_list_menu_role_coordination" name="View Room (Coordination)" sequence="80" action="action_department_list_server"/>
+
+    <menuitem id="menu_department_kanban" name="Departments Management" action="action_department_kanban"/>
+
+    <menuitem id="his_health_check_physician_list_menu" name="Physician" sequence="90" action="action_his_health_check_physician"/>
+
+    <menuitem id="his_health_check_schedule_list_menu" name="Schedule" sequence="100" action="action_his_health_check_schedule"/>
+
+    <menuitem id="mate_health_check_appointment_list_menu" name="Appointment" sequence="110" action="action_appointment"/>
+</odoo>

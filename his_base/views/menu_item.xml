@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- Main Patient Menu-->
+    <menuitem id="main_menu_patient" name="Patient" groups="his_base.group_his_user" sequence="20" web_icon="his_base,static/src/img/patient.png"/>
+
+    <menuitem id="action_main_menu_patient" name="Patient" action="action_patient" parent="main_menu_patient" sequence="10"/>
+
+    <!-- Patient Configuration Menu-->
+    <menuitem id="menu_his_patient_cofig" name="Configuration" parent="his_base.main_menu_patient" groups="his_base.group_his_manager" sequence="100"/>
+
+    <menuitem id="menu_patient_tag" name="Patient Tags" action="his_base.act_open_patient_tag" parent="his_base.menu_his_patient_cofig" sequence="15"/>
+
+    <menuitem id="menu_religion" name="Religion" action="his_base.act_clinic_religion_view" parent="his_base.menu_his_patient_cofig" sequence="20"/>
+
+    <!--Main Physician -->
+    <menuitem id="main_menu_physician" name="Physician" groups="his_base.group_his_user"  sequence="20" web_icon="his_base,static/src/img/physician.png"/>
+
+    <menuitem id="action_menu_physician" sequence="0" parent="main_menu_physician" action="action_physician"/>
+
+    <menuitem id="menu_physician_cofig" name="Configuration" parent="main_menu_physician" groups="his_base.group_his_manager" sequence="100"/>
+
+    <menuitem id="menu_physician_specialty" sequence="10" parent="menu_physician_cofig" action='action_physician_specialty'/>
+
+    <menuitem id="menu_physician_degree" sequence="10" parent="menu_physician_cofig" action='action_physician_degree'/>
+
+    <!-- Main Services Menu -->
+    <menuitem id="clinic_services_root" name="Services" sequence="25"  groups="his_base.group_manage_services" web_icon="his_base,static/src/img/services.png"/>
+
+    <menuitem id="menu_clinic_services" name="Services" parent="clinic_services_root" action="product_template_action_services"/>
+
+    <!-- Main Medicine Menu -->
+    <menuitem id="clinic_medicine_root" name="Medicines" sequence="25" groups="his_base.group_manage_medicines" web_icon="his_base,static/src/img/pills.png"/>
+
+    <menuitem id="menu_clinic_medicine" name="Medicines" parent="clinic_medicine_root" action="product_template_action_medicines"/>
+
+    <menuitem id="menu_medicine_cofig" name="Configuration" parent="clinic_medicine_root" groups="his_base.group_his_user" sequence="100"/>
+
+    <menuitem id="menu_medicine_drug" name="Drug Form" parent="his_base.menu_medicine_cofig" action="his_base.act_open_drug_form_view" sequence="2"/>
+
+    <menuitem id="menu_medicine_product_active_component" name="Active Component" parent="his_base.menu_medicine_cofig" action="act_open_active_comp" sequence="5"/>
+
+    <menuitem id="menu_medicine_drug_company" name="Drug Company" parent="his_base.menu_medicine_cofig" action="act_open_drug_company_form_view" sequence="6"/>
+
+    <menuitem id="menu_therapeutic_effect" name="Therapeutic Effect" parent="his_base.menu_medicine_cofig" action="act_open_therapeutic_effect" sequence="7"/>
+
+    <menuitem id="menu_medicine_medicament_flavour" name="Medicament Flavour" parent="his_base.menu_medicine_cofig" action="action_medicament_flavour" sequence="9"/>
+
+    <menuitem id="menu_medicine_medicament_route" name="Medicament Route" parent="his_base.menu_medicine_cofig" action="action_medicament_route" sequence="10"/>
+
+</odoo>

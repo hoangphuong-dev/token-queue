@@ -1,0 +1,113 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_clinic_product_kit_line_base_user,clinic.product.kit.line,model_clinic_product_kit_line,base.group_user,1,0,0,0
+
+access_his_his_appointment_purpose_user,Appointment Purpose,model_appointment_purpose,his_base.group_his_user,1,0,0,0
+access_his_his_patient_disease_user,Systematic Examination,model_his_patient_disease,his_base.group_his_user,1,0,0,0
+access_his_his_appointment_user,Appointment,model_his_appointment,his_base.group_his_user,1,0,1,0
+access_his_his_diseases_user,Clinic Diseases,model_his_diseases,his_base.group_his_user,1,0,0,0
+access_his_diseases_category_user,Clinic Diseases Category,model_diseases_category,his_base.group_his_user,1,0,0,0
+access_his_disease_gene_user,Clinic Disease Gene,model_disease_gene,his_base.group_his_user,1,0,0,0
+access_his_his_patient_genetic_risk_user,Clinic Patient Genetic Risk,model_his_patient_genetic_risk,his_base.group_his_user,1,0,0,0
+access_his_his_patient_family_diseases_user,Clinic Patient Family Diseases,model_his_patient_family_diseases,his_base.group_his_user,1,0,0,0
+access_his_medicament_dosage_user,Clinic Medication Dosage,model_medicament_dosage,his_base.group_his_user,1,0,0,0
+access_his_clinic_family_member_user,Clinic Family Member,model_clinic_family_member,his_base.group_his_user,1,0,0,0
+access_his_his_prescription_line_user,Prescription Line,model_prescription_line,his_base.group_his_user,1,0,0,0
+access_his_his_prescription_order_user,Prescription Order,model_prescription_order,his_base.group_his_user,1,0,0,0
+access_his_his_patient_medication_user,Clinic Patient Medication,model_his_patient_medication,his_base.group_his_user,1,0,0,0
+access_his_clinic_ethnicity_user,Clinic Ethnicity,model_clinic_ethnicity,his_base.group_his_user,1,0,0,0
+access_his_medicament_group_line_user,Medicament Group Line ,model_medicament_group_line,his_base.group_his_user,1,0,0,0
+access_his_medicament_group_user,Clinic Medicament Group,model_medicament_group,his_base.group_his_user,1,0,0,0
+access_his_treatment_user,Clinic Treatment,his.model_his_treatment,his_base.group_his_user,1,0,0,0
+access_medical_alert_user,Clinic Medical Alerts,model_clinic_medical_alert,his_base.group_his_user,1,0,0,0
+access_clinic_medical_allergy_user,Clinic Allergies,model_clinic_medical_allergy,base.group_user,1,0,0,0
+access_his_appointment_cabin_user,App Cabin User,model_appointment_cabin,his_base.group_his_user,1,0,0,0
+access_clinic_family_relation_user,Family Relation,model_clinic_family_relation,his_base.group_his_user,1,0,0,0
+access_clinic_cancel_reason_user,access_clinic_cancel_reason_user,model_clinic_cancel_reason,his_base.group_his_user,1,0,0,0
+access_clinic_patient_evaluation_user,access_clinic_patient_evaluation,model_clinic_patient_evaluation,his_base.group_his_user,1,0,0,0
+access_clinic_patient_procedure_user,access_clinic_patient_procedure,model_clinic_patient_procedure,his_base.group_his_user,1,0,0,0
+access_clinic_product_kit_user,clinic.product.kit,model_clinic_product_kit,his_base.group_his_user,1,0,0,0
+access_clinic_product_kit_line_user,clinic.product.kit.line,model_clinic_product_kit_line,his_base.group_his_user,1,0,0,0
+his.access_procedure_group_line,access_procedure_group_line,model_procedure_group_line,his_base.group_his_user,1,0,0,0
+his.access_procedure_group,access_procedure_group,model_procedure_group,his_base.group_his_user,1,0,0,0
+
+access_his_patient_receptionist,Patient,his_base.model_his_patient,his.group_his_receptionist,1,1,1,0
+access_his_his_appointment_receptionist,Appointment,model_his_appointment,his.group_his_receptionist,1,1,1,0
+access_his_his_patient_disease_receptionist,Clinic Patient Disease,model_his_patient_disease,his.group_his_receptionist,1,1,1,0
+access_his_disease_gene_receptionist,Clinic Disease Gene,model_disease_gene,his.group_his_receptionist,1,1,1,0
+access_his_his_patient_genetic_risk_receptionist,Clinic Patient Genetic Risk,model_his_patient_genetic_risk,his.group_his_receptionist,1,1,1,0
+access_his_his_patient_family_diseases_receptionist,Clinic Patient Family Diseases,model_his_patient_family_diseases,his.group_his_receptionist,1,1,1,0
+access_his_clinic_family_member_receptionist,Clinic Family Member,model_clinic_family_member,his.group_his_receptionist,1,1,1,0
+access_his_app_consumable_rec,Consumable Line Rec,his_base.model_his_consumable_line,his.group_his_receptionist,1,1,1,0
+access_his_clinic_ethnicity_receptionist,Clinic Ethnicity,model_clinic_ethnicity,his.group_his_receptionist,1,1,1,0
+access_his_res_partner_receptionist,Partner Receptionist,base.model_res_partner,his.group_his_receptionist,1,1,1,0
+access_medical_alert_rec,Clinic Medical Alerts Rec,model_clinic_medical_alert,his.group_his_receptionist,1,1,1,1
+access_clinic_medical_allergy_rec,Clinic Allergies Rec,model_clinic_medical_allergy,his.group_his_receptionist,1,1,1,1
+access_clinic_cancel_reason_receptionist,access_clinic_cancel_reason_receptionist,model_clinic_cancel_reason,his.group_his_receptionist,1,1,1,0
+access_clinic_cancel_reason_wiz_receptionist,access_clinic_cancel_reason_wiz_receptionist,model_clinic_cancel_reason_wiz,his.group_his_receptionist,1,1,1,1
+his.access_clinic_reschedule_appointments,access_clinic_reschedule_appointments,his.model_clinic_reschedule_appointments,his.group_his_receptionist,1,1,1,1
+access_clinic_patient_evaluation_receptionist,access_clinic_patient_evaluation,model_clinic_patient_evaluation,his.group_his_receptionist,1,1,1,1
+access_clinic_patient_procedure_receptionist,access_clinic_patient_procedure,model_clinic_patient_procedure,his.group_his_receptionist,1,1,1,1
+
+access_his_medicament_flavour_nurse,Clinic Medicament Flavour,his_base.model_medicament_flavour,his.group_his_nurse,1,1,1,0
+access_his_his_diseases_nurse,Clinic Diseases,model_his_diseases,his.group_his_nurse,1,1,1,0
+access_his_diseases_category_nurse,Clinic Diseases Category,model_diseases_category,his.group_his_nurse,1,1,1,0
+access_his_his_patient_disease_nurse,Clinic Patient Disease,model_his_patient_disease,his.group_his_nurse,1,1,1,0
+access_his_disease_gene_nurse,Clinic Disease Gene,model_disease_gene,his.group_his_nurse,1,1,1,0
+access_his_his_patient_genetic_risk_nurse,Clinic Patient Genetic Risk,model_his_patient_genetic_risk,his.group_his_nurse,1,1,1,0
+access_his_his_patient_family_diseases_nurse,Clinic Patient Family Diseases,model_his_patient_family_diseases,his.group_his_nurse,1,1,1,0
+access_his_app_consumable_nurse,Consumable Line Nurse,his_base.model_his_consumable_line,his.group_his_nurse,1,1,1,1
+access_his_drug_form_nurse,Clinic Drug Form,his_base.model_drug_form,his.group_his_nurse,1,1,1,0
+access_his_active_comp_nurse,Clinic Active Comp,his_base.model_active_comp,his.group_his_nurse,1,1,1,0
+access_his_drug_company_nurse,Clinic Drug Company,his_base.model_drug_company,his.group_his_nurse,1,1,1,0
+access_his_drug_route_nurse,Clinic Drug Route,his_base.model_drug_route,his.group_his_nurse,1,1,1,0
+access_his_medicament_dosage_nurse,Clinic Medication Dosage,model_medicament_dosage,his.group_his_nurse,1,1,1,0
+access_his_his_prescription_line_nurse,Prescription Line,model_prescription_line,his.group_his_nurse,1,1,1,0
+access_his_his_prescription_order_nurse,Prescription Order,model_prescription_order,his.group_his_nurse,1,1,0,0
+access_his_his_patient_medication_nurse,Clinic Patient Medication,model_his_patient_medication,his.group_his_nurse,1,1,0,0
+access_his_clinic_ethnicity_nurse,Clinic Ethnicity,model_clinic_ethnicity,his.group_his_nurse,1,1,0,0
+access_his_medicament_group_line_nurse,Medicament Group Line ,model_medicament_group_line,his.group_his_nurse,1,1,1,0
+access_his_medicament_group_nurse,Clinic Medicament Group,model_medicament_group,his.group_his_nurse,1,1,1,0
+access_his_his_patient_nurse,Clinic Patient Nurse,his_base.model_his_patient,his.group_his_nurse,1,1,1,0
+access_medical_alert_nurse,Clinic Medical Alerts Nurse,model_clinic_medical_alert,his.group_his_nurse,1,1,1,1
+access_clinic_medical_allergy_nurse,Clinic Allergies Nurse,model_clinic_medical_allergy,his.group_his_nurse,1,1,1,1
+access_clinic_patient_evaluation_nurse,access_clinic_patient_evaluation_nurse,model_clinic_patient_evaluation,his.group_his_nurse,1,1,1,0
+access_clinic_product_kit_nurse,clinic.product.kit,model_clinic_product_kit,his.group_his_nurse,1,1,1,1
+access_clinic_product_kit_line_nurse,clinic.product.kit.line,model_clinic_product_kit_line,his.group_his_nurse,1,1,1,1
+
+access_his_treatment_jr_dr,Treatment Jr. Dr.,his.model_his_treatment,his.group_his_jr_doctor,1,1,1,0
+access_his_app_consumable_jr_dr,Consumable Line Dr,his_base.model_his_consumable_line,his.group_his_jr_doctor,1,1,1,1
+access_his_clinic_family_member_jr_doctor,Clinic Family Member,model_clinic_family_member,his.group_his_jr_doctor,1,1,1,0
+access_his_his_prescription_line_jr_doctor,Prescription Line,model_prescription_line,his.group_his_jr_doctor,1,1,1,1
+access_his_his_prescription_order_jr_doctor,Prescription Order,model_prescription_order,his.group_his_jr_doctor,1,1,1,0
+access_his_his_patient_medication_jr_doctor,Clinic Patient Medication,model_his_patient_medication,his.group_his_jr_doctor,1,1,1,0
+his.access_procedure_group_line_dr,access_procedure_group_line_dr,model_procedure_group_line,group_his_jr_doctor,1,1,1,1
+his.access_procedure_group_dr,access_procedure_group_dr,model_procedure_group,group_his_jr_doctor,1,1,1,1
+
+access_his_medicament_group_line_doctor,Medicament Group Line ,model_medicament_group_line,his.group_his_doctor,1,1,1,1
+access_his_medicament_group_doctor,Clinic Medicament Group,model_medicament_group,his.group_his_doctor,1,1,1,1
+
+access_his_his_appointment_manager,Appointment,model_his_appointment,his_base.group_his_manager,1,1,1,1
+access_his_his_diseases_manager,Clinic Diseases,model_his_diseases,his_base.group_his_manager,1,1,1,1
+access_his_diseases_category_manager,Clinic Diseases Category,model_diseases_category,his_base.group_his_manager,1,1,1,1
+access_his_his_patient_disease_manager,Clinic Patient Disease,model_his_patient_disease,his_base.group_his_manager,1,1,1,1
+access_his_disease_gene_manager,Clinic Disease Gene,model_disease_gene,his_base.group_his_manager,1,1,1,1
+access_his_his_patient_genetic_risk_manager,Clinic Patient Genetic Risk,model_his_patient_genetic_risk,his_base.group_his_manager,1,1,1,1
+access_his_his_patient_family_diseases_manager,Clinic Patient Family Diseases,model_his_patient_family_diseases,his_base.group_his_manager,1,1,1,1
+access_his_drug_route_manager,Clinic Drug Route,his_base.model_drug_route,his_base.group_his_manager,1,1,1,1
+access_his_medicament_dosage_manager,Clinic Medication Dosage,model_medicament_dosage,his_base.group_his_manager,1,1,1,1
+access_his_clinic_family_member_manager,Clinic Family Member,model_clinic_family_member,his_base.group_his_manager,1,1,1,1
+access_his_his_prescription_line_manager,Prescription Line,model_prescription_line,his_base.group_his_manager,1,1,1,1
+access_his_his_prescription_order_manager,Prescription Order,model_prescription_order,his_base.group_his_manager,1,1,1,1
+access_his_his_patient_medication_manager,Clinic Patient Medication,model_his_patient_medication,his_base.group_his_manager,1,1,1,1
+access_his_clinic_ethnicity_manager,Clinic Ethnicity,model_clinic_ethnicity,his_base.group_his_manager,1,1,1,1
+access_his_res_partner_manager,Partner Manager,base.model_res_partner,his_base.group_his_manager,1,1,1,1
+access_his_treatment_manager,Clinic Treatment,his.model_his_treatment,his_base.group_his_manager,1,1,1,1
+access_his_his_appointment_purpose_manager,Appointment Purpose,model_appointment_purpose,his_base.group_his_user,1,1,1,1
+access_his_appointment_cabin_manager,App Cabin Manager,model_appointment_cabin,his_base.group_his_manager,1,1,1,1
+access_his_clinic_physician_his_manager,Physician,his_base.model_his_physician,his_base.group_his_manager,1,1,0,0
+access_his_user_stock_move,StockMove,stock.model_stock_move,his_base.group_his_user,1,0,0,0
+access_clinic_family_relation_manager,Family Relation,model_clinic_family_relation,his_base.group_his_user,1,1,1,1
+access_his_group_his_appointment_user,Appointment User,model_his_appointment,his_base.group_his_user,1,1,1,0
+access_clinic_cancel_reason_manager,access_clinic_cancel_reason_manager,model_clinic_cancel_reason,his_base.group_his_manager,1,1,1,1
+
+his.access_clinic_pain_level,access_clinic_pain_level,his.model_clinic_pain_level,base.group_user,1,1,1,1

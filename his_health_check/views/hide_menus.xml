@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Ẩn menu Calendar -->
+    <record id="calendar.mail_menu_calendar" model="ir.ui.menu">
+        <field name="active" eval="False"/>
+    </record>
+    
+    <!-- Ẩn menu Invoicing -->
+    <record id="account.menu_finance" model="ir.ui.menu">
+        <field name="active" eval="False"/>
+    </record>
+    
+    <!-- Ẩn menu Inventory -->
+    <record id="stock.menu_stock_root" model="ir.ui.menu">
+        <field name="active" eval="False"/>
+    </record>
+    
+    <!-- Ẩn menu Employees -->
+    <record id="hr.menu_hr_root" model="ir.ui.menu">
+        <field name="active" eval="False"/>
+    </record>
+    
+    <!-- Ẩn menu Physician -->
+    <record id="his_base.main_menu_physician" model="ir.ui.menu">
+        <field name="active" eval="False"/>
+    </record>
+
+    <!-- Ẩn menu Services -->
+    <record id="his_base.clinic_services_root" model="ir.ui.menu">
+        <field name="active" eval="False"/>
+    </record>
+    
+    <!-- Ẩn menu Medicine -->
+    <record id="his_base.clinic_medicine_root" model="ir.ui.menu">
+        <field name="active" eval="False"/>
+    </record>
+    
+    <!-- Ẩn menu Appointment -->
+    <record id="his.main_menu_appointment" model="ir.ui.menu">
+        <field name="active" eval="False"/>
+    </record> 
+    
+</odoo>

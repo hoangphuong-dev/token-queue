@@ -1,0 +1,1133 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* his_health_check
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0-20250605\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-09 09:50+0000\n"
+"PO-Revision-Date: 2025-07-09 09:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__accesses_count
+msgid "# Access Rights"
+msgstr "# Quyền Truy cập"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__groups_count
+msgid "# Groups"
+msgstr "# Nhóm"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__rules_count
+msgid "# Record Rules"
+msgstr "# Quy tắc Bản ghi"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_department_kanban
+msgid "<span class=\"text-muted small mr-2\">Capacity:</span>"
+msgstr "<span class=\"text-muted small mr-2\">Sức chứa:</span>"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_department_kanban
+msgid "<span class=\"text-muted small mr-2\">Location:</span>"
+msgstr "<span class=\"text-muted small mr-2\">Địa điểm:</span>"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_department_kanban
+msgid "<span class=\"text-muted small mr-2\">Specialty:</span>"
+msgstr "<span class=\"text-muted small mr-2\">Chuyên khoa:</span>"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_department_kanban
+msgid "<span class=\"text-muted small\">Status:</span>"
+msgstr "<span class=\"text-muted small\">Trạng thái:</span>"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "<span>ID: </span>"
+msgstr "<span>Mã số: </span>"
+
+#. module: his_health_check
+#: model:ir.model.fields,help:his_health_check.field_hr_department__code
+#: model:ir.model.fields,help:his_health_check.field_mate_create_department_line_wizard__code
+msgid "A unique code for the department, used for identification."
+msgstr "Mã duy nhất cho khoa, dùng để định danh."
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__api_key_ids
+msgid "API Keys"
+msgstr "Khóa API"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__message_needaction
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__message_needaction
+msgid "Action Needed"
+msgstr "Cần Hành động"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__active
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__active
+msgid "Active"
+msgstr "Hoạt động"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__activity_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__activity_ids
+msgid "Activities"
+msgstr "Hoạt động"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__additional_info
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__additional_info
+msgid "Additional info"
+msgstr "Thông tin bổ sung"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Address"
+msgstr "Địa chỉ"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__age
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__age
+#: model:ir.model.fields,field_description:his_health_check.field_res_partner__age
+#: model:ir.model.fields,field_description:his_health_check.field_res_users__age
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Age"
+msgstr "Tuổi"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__avatar_1920
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__avatar_1920
+msgid "Avatar"
+msgstr "Ảnh đại diện"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__bank_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__bank_ids
+msgid "Banks"
+msgstr "Ngân hàng"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__barcode
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__barcode
+msgid "Barcode"
+msgstr "Mã vạch"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Birth Date"
+msgstr "Ngày sinh"
+
+#. module: his_health_check
+#. odoo-python
+#: code:addons/his_health_check/models/schedule.py:0
+msgid ""
+"Cannot create schedule in the past. Start Datetime must be in the future."
+msgstr "Không thể tạo lịch trong quá khứ. Thời gian bắt đầu phải là tương lai."
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__is_blacklisted
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__is_blacklisted
+msgid "Blacklist"
+msgstr "Danh sách đen"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_create_package_wizard_form
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_mate_create_department_wizard_form
+msgid "Cancel"
+msgstr "Hủy"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__capacity
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_line_wizard__capacity
+msgid "Capacity"
+msgstr "Sức chứa"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__channel_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__channel_ids
+msgid "Channels"
+msgstr "Kênh"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__city
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__city
+msgid "City"
+msgstr "Thành phố"
+
+#. module: his_health_check
+#: model_terms:ir.actions.act_window,help:his_health_check.action_his_health_check_schedule
+msgid "Click to add a Doctor Schedule."
+msgstr "Nhấp để thêm Lịch Bác sĩ."
+
+#. module: his_health_check
+#: model_terms:ir.actions.act_window,help:his_health_check.action_his_health_check_physician
+msgid "Click to add a Physician."
+msgstr "Nhấp để thêm Bác sĩ."
+
+#. module: his_health_check
+#: model_terms:ir.actions.act_window,help:his_health_check.his_health_check_package_action
+msgid "Click to define a new Package."
+msgstr "Nhấp để tạo Gói khám mới."
+
+#. module: his_health_check
+#: model_terms:ir.actions.act_window,help:his_health_check.his_health_check_patient_action
+msgid "Click to define a new Patient."
+msgstr "Nhấp để tạo Bệnh nhân mới."
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_create_group_sequence_wizard_form
+msgid "Close"
+msgstr "Đóng"
+
+#. module: his_health_check
+#: model:ir.model.fields.selection,name:his_health_check.selection__hr_department__state__closed
+msgid "Closed"
+msgstr "Đã đóng"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__code
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_line_wizard__code
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_physician_role__code
+msgid "Code"
+msgstr "Mã"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__company_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__company_id
+msgid "Company"
+msgstr "Công ty"
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.action_mate_create_department_wizard
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_mate_create_department_wizard_form
+msgid "Create Department"
+msgstr "Tạo Khoa"
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.action_mate_create_group_sequence_wizard
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_create_group_sequence_wizard_form
+msgid "Create Group Sequence"
+msgstr "Tạo Trình tự Nhóm"
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.action_mate_create_package_wizard
+#: model:ir.actions.act_window,name:his_health_check.his_health_check_package_form_action
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_create_package_wizard_form
+msgid "Create Package"
+msgstr "Tạo Gói khám"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Enter Address"
+msgstr "Nhập Địa chỉ"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Enter Age"
+msgstr "Nhập Tuổi"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Enter Email"
+msgstr "Nhập Email"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Enter Insurance Code"
+msgstr "Nhập Mã bảo hiểm"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Enter Name"
+msgstr "Nhập Tên"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Enter Nation"
+msgstr "Nhập Quốc gia"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Enter PID: 8xxxxxxxx"
+msgstr "Nhập CCCD: 8xxxxxxxx"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Enter Phone"
+msgstr "Nhập Số điện thoại"
+
+#. module: his_health_check
+#: model:ir.model.fields.selection,name:his_health_check.selection__create_package_wizard__gender__female
+#: model:ir.model.fields.selection,name:his_health_check.selection__his_health_check_package__gender__female
+#: model:ir.model.fields.selection,name:his_health_check.selection__res_partner__gender__female
+msgid "Female"
+msgstr "Nữ"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__email
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__email
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Email"
+msgstr "Email"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__employee
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__employee
+msgid "Employee"
+msgstr "Nhân viên"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_schedule__end_datetime
+msgid "End Datetime"
+msgstr "Thời gian kết thúc"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_wizard__gender
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__gender
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__gender
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package__gender
+#: model:ir.model.fields,field_description:his_health_check.field_res_partner__gender
+#: model:ir.model.fields,field_description:his_health_check.field_res_users__gender
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Gender"
+msgstr "Giới tính"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_line_wizard__group_id
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_line_wizard__group_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_group_order__group_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_line__group_id
+msgid "Group"
+msgstr "Nhóm"
+
+#. module: his_health_check
+#: model:ir.ui.menu,name:his_health_check.his_health_check_group_sequence_list_menu
+msgid "Group Sequence"
+msgstr "Trình tự Nhóm"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__groups_id
+msgid "Groups"
+msgstr "Nhóm"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__has_message
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__has_message
+msgid "Has Message"
+msgstr "Có Tin nhắn"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__insurance_code
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Insurance Code"
+msgstr "Mã bảo hiểm"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__is_company
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__is_company
+msgid "Is a Company"
+msgstr "Là Công ty"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__lang
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__lang
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#. module: his_health_check
+#: model:ir.model.fields.selection,name:his_health_check.selection__create_package_wizard__gender__male
+#: model:ir.model.fields.selection,name:his_health_check.selection__his_health_check_package__gender__male
+#: model:ir.model.fields.selection,name:his_health_check.selection__res_partner__gender__male
+msgid "Male"
+msgstr "Nam"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__mobile
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__mobile
+msgid "Mobile"
+msgstr "Di động"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__name
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__name
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_customer_type__name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_group__name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package__name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_group_order__name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_schedule__name
+#: model:ir.model.fields,field_description:his_health_check.field_physician_specialty__name
+#: model:ir.model.fields,field_description:his_health_check.field_product_product__name
+#: model:ir.model.fields,field_description:his_health_check.field_res_partner__name
+#: model:ir.model.fields,field_description:his_health_check.field_res_users__name
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Name"
+msgstr "Tên"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__nation
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Nation"
+msgstr "Quốc gia"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__nationality_id
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Nationality"
+msgstr "Quốc tịch"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__comment
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__comment
+msgid "Notes"
+msgstr "Ghi chú"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__notification_type
+msgid "Notification"
+msgstr "Thông báo"
+
+#. module: his_health_check
+#: model:ir.model.fields.selection,name:his_health_check.selection__hr_department__state__open
+msgid "Open"
+msgstr "Mở"
+
+#. module: his_health_check
+#: model:ir.model.fields.selection,name:his_health_check.selection__create_package_wizard__gender__other
+#: model:ir.model.fields.selection,name:his_health_check.selection__his_health_check_package__gender__other
+#: model:ir.model.fields.selection,name:his_health_check.selection__res_partner__gender__other
+msgid "Other"
+msgstr "Khác"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__patient_id_number
+msgid "PID"
+msgstr "CCCD"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "PID:"
+msgstr "CCCD:"
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.his_health_check_package_action
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_line_wizard__package_id
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_wizard__package_id
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_line_wizard__package_wizard_id
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_wizard__package_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__package_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__package_name
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_group_order__package_id
+#: model:ir.ui.menu,name:his_health_check.his_health_check_package_list_menu
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_package_search
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_create_package_wizard_form
+msgid "Package"
+msgstr "Gói khám"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_wizard__package_line_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__package_line_ids
+msgid "Package Lines"
+msgstr "Dòng Gói khám"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_line__package_id
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Packages"
+msgstr "Gói khám"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Package contents"
+msgstr "Nội dung gói khám"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__password
+msgid "Password"
+msgstr "Mật khẩu"
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.his_health_check_patient_action
+#: model:ir.ui.menu,name:his_health_check.his_health_check_patient_list_menu
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_search
+msgid "Patient"
+msgstr "Bệnh nhân"
+
+#. module: his_health_check
+#: model:ir.ui.menu,name:his_health_check.his_health_check_patient_list_menu_role_coordination
+msgid "Patient (Coordination)"
+msgstr "Bệnh nhân (Điều phối)"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__phone
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__phone
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Phone"
+msgstr "Điện thoại"
+
+#. module: his_health_check
+#: model:ir.ui.menu,name:his_health_check.his_health_check_physician_list_menu
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Physician"
+msgstr "Bác sĩ"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__code
+msgid "Physician Code"
+msgstr "Mã Bác sĩ"
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.action_his_health_check_physician
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_tree
+msgid "Physicians"
+msgstr "Bác sĩ"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Priority Level"
+msgstr "Mức độ ưu tiên"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__priority_level
+msgid "Priority Levels"
+msgstr "Mức độ ưu tiên"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__ref
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__ref
+msgid "Reference"
+msgstr "Tham chiếu"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Registration information"
+msgstr "Thông tin đăng ký"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__partner_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__partner_id
+msgid "Related Partner"
+msgstr "Đối tác liên quan"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__user_id
+msgid "Related User"
+msgstr "Người dùng liên quan"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__resource_ids
+msgid "Resources"
+msgstr "Tài nguyên"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__activity_user_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__activity_user_id
+msgid "Responsible User"
+msgstr "Người chịu trách nhiệm"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Role"
+msgstr "Vai trò"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_physician_role__name
+msgid "Role Name"
+msgstr "Tên vai trò"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__role_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__role_names
+msgid "Roles"
+msgstr "Vai trò"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_schedule__room_id
+msgid "Room"
+msgstr "Phòng"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__user_id
+msgid "Salesperson"
+msgstr "Nhân viên bán hàng"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_create_group_sequence_wizard_form
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_create_package_wizard_form
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_mate_create_department_wizard_form
+msgid "Save"
+msgstr "Lưu"
+
+#. module: his_health_check
+#: model:ir.ui.menu,name:his_health_check.his_health_check_schedule_list_menu
+msgid "Schedule"
+msgstr "Lịch trình"
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.action_his_health_check_schedule
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__schedule_ids
+msgid "Schedules"
+msgstr "Lịch trình"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Select Birth Date"
+msgstr "Chọn ngày sinh"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Select Gender"
+msgstr "Chọn giới tính"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Select Nationality"
+msgstr "Chọn quốc tịch"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Select Packages"
+msgstr "Chọn gói khám"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Select Priority Level"
+msgstr "Chọn mức độ ưu tiên"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_group_sequence_line_wizard__sequence
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_group_order__sequence
+msgid "Sequence"
+msgstr "Trình tự"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_line_wizard__service_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_line__service_id
+msgid "Service"
+msgstr "Dịch vụ"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package__package_line_ids
+msgid "Services"
+msgstr "Dịch vụ"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__new_password
+msgid "Set Password"
+msgstr "Đặt mật khẩu"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__res_users_settings_id
+msgid "Settings"
+msgstr "Cài đặt"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__partner_share
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__partner_share
+msgid "Share Partner"
+msgstr "Chia sẻ đối tác"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__share
+msgid "Share User"
+msgstr "Chia sẻ người dùng"
+
+#. module: his_health_check
+#: model:ir.ui.menu,name:his_health_check.his_health_check_queue_list_menu
+msgid "Specialist Doctor"
+msgstr "Bác sĩ chuyên khoa"
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.action_his_health_check_specialty
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__specialty_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__specialty_names
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_specialty_tree
+msgid "Specialties"
+msgstr "Chuyên khoa"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_line_wizard__specialty_id
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__specialty_id
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_wizard__specialty_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_line__specialty_id
+#: model:ir.ui.menu,name:his_health_check.his_health_check_department_list_menu
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_mate_create_department_wizard_form
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_specialty_form
+msgid "Specialty"
+msgstr "Chuyên khoa"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_schedule__start_datetime
+msgid "Start Datetime"
+msgstr "Thời gian bắt đầu"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__state_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__state_id
+msgid "State"
+msgstr "Tỉnh/Thành phố"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__state
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__state
+msgid "Status"
+msgstr "Trạng thái"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__street
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__street
+msgid "Street"
+msgstr "Đường"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__street2
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__street2
+msgid "Street2"
+msgstr "Đường 2"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__category_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__category_id
+msgid "Tags"
+msgstr "Thẻ"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__vat
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__vat
+msgid "Tax ID"
+msgstr "Mã số thuế"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__title
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__title
+msgid "Title"
+msgstr "Danh xưng"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__totp_enabled
+msgid "Two-factor authentication"
+msgstr "Xác thực hai yếu tố"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__user_ids
+msgid "Users"
+msgstr "Người dùng"
+
+#. module: his_health_check
+#: model:ir.ui.menu,name:his_health_check.his_health_check_department_list_menu_role_coordination
+msgid "View Room (Coordination)"
+msgstr "Xem phòng (Điều phối)"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__website
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__website
+msgid "Website Link"
+msgstr "Liên kết website"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__zip
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__zip
+msgid "Zip"
+msgstr "Mã bưu điện"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "example@domain.com"
+msgstr "vidu@domain.com"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_line_wizard__department_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package_line__department_id
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_department_search
+msgid "Department"
+msgstr "Khoa"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_line_wizard__name
+msgid "Department Name"
+msgstr "Tên khoa"
+
+#. module: his_health_check
+#: model:ir.actions.act_window,name:his_health_check.action_department_kanban
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_wizard__department_ids
+#: model:ir.model.fields,field_description:his_health_check.field_physician_specialty__department_ids
+msgid "Departments"
+msgstr "Các khoa"
+
+#. module: his_health_check
+#: model:ir.ui.menu,name:his_health_check.menu_department_kanban
+msgid "Departments Management"
+msgstr "Quản lý khoa"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_group__description
+#: model:ir.model.fields,field_description:his_health_check.field_product_product__description
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_schedule__doctor_id
+msgid "Doctor"
+msgstr "Bác sĩ"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_schedule_calendar
+msgid "Doctor Schedules"
+msgstr "Lịch bác sĩ"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Doctor's Name"
+msgstr "Tên bác sĩ"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__default_working_hours
+msgid "Default Working Hours"
+msgstr "Giờ làm việc mặc định"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__date_of_birth
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__date_of_birth
+#: model:ir.model.fields,field_description:his_health_check.field_res_partner__date_of_birth
+#: model:ir.model.fields,field_description:his_health_check.field_res_users__date_of_birth
+msgid "Date of Birth"
+msgstr "Ngày sinh"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_create_package_wizard__customer_type
+#: model:ir.model.fields,field_description:his_health_check.field_his_health_check_package__customer_type
+msgid "Customer Type"
+msgstr "Loại khách hàng"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__country_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__country_id
+msgid "Country"
+msgstr "Quốc gia"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__image_1920
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__image_1920
+msgid "Image"
+msgstr "Hình ảnh"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Identification information"
+msgstr "Thông tin định danh"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__function
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__function
+msgid "Job Position"
+msgstr "Vị trí công việc"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__is_public
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__is_public
+msgid "Is Public"
+msgstr "Công khai"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__is_gp
+msgid "Is Gp"
+msgstr "Là bác sĩ đa khoa"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__is_specialist
+msgid "Is Specialist"
+msgstr "Là bác sĩ chuyên khoa"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__login
+msgid "Login"
+msgstr "Đăng nhập"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_physician_form
+msgid "Lịch làm việc"
+msgstr "Lịch làm việc"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__message_ids
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__message_ids
+msgid "Messages"
+msgstr "Tin nhắn"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_hr_department__location
+#: model:ir.model.fields,field_description:his_health_check.field_mate_create_department_line_wizard__location
+msgid "Location"
+msgstr "Địa điểm"
+
+#. module: his_health_check
+#: model:ir.actions.server,name:his_health_check.action_patient_list_server
+msgid "Patient List"
+msgstr "Danh sách bệnh nhân"
+
+#. module: his_health_check
+#: model:ir.actions.server,name:his_health_check.action_department_list_server
+#: model:ir.actions.server,name:his_health_check.action_queue_list_server
+msgid "Queue List"
+msgstr "Danh sách hàng đợi"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__website_id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__website_id
+msgid "Website"
+msgstr "Website"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.view_his_health_check_group_sequence_form
+msgid "Health Check Group Sequence"
+msgstr "Trình tự nhóm khám sức khỏe"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_health_check_customer_type
+msgid "Health Check Customer Type"
+msgstr "Loại khách hàng khám sức khỏe"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_hr_department
+msgid "Health Check Department"
+msgstr "Khoa khám sức khỏe"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_health_check_group
+msgid "Health Check Group"
+msgstr "Nhóm khám sức khỏe"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_health_check_package
+msgid "Health Check Package"
+msgstr "Gói khám sức khỏe"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_health_check_package_group_order
+msgid "Health Check Package Group Order"
+msgstr "Thứ tự nhóm gói khám sức khỏe"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_health_check_package_line
+msgid "Health Check Package Line"
+msgstr "Dòng gói khám sức khỏe"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__package_ids
+msgid "Health Check Packages"
+msgstr "Gói khám sức khỏe"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_patient
+msgid "Health Check Patient"
+msgstr "Bệnh nhân khám sức khỏe"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_physician
+msgid "Health Check Physician"
+msgstr "Bác sĩ khám sức khỏe"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_health_check_schedule
+msgid "Health Check Schedule"
+msgstr "Lịch khám sức khỏe"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_product_product
+msgid "Health Check Service"
+msgstr "Dịch vụ khám sức khỏe"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_physician_specialty
+msgid "Health Check Specialty"
+msgstr "Chuyên khoa khám sức khỏe"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_create_group_sequence_line_wizard
+msgid "Create Group Sequence Line Wizard"
+msgstr "Trình tạo dòng trình tự nhóm"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_create_group_sequence_wizard
+msgid "Create Group Sequence Wizard"
+msgstr "Trình tạo trình tự nhóm"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_create_package_line_wizard
+msgid "Create Package Line Wizard"
+msgstr "Trình tạo dòng gói"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_create_package_wizard
+msgid "Create Package Wizard"
+msgstr "Trình tạo gói"
+
+#. module: his_health_check
+#: model_terms:ir.ui.view,arch_db:his_health_check.his_health_check_patient_form_view
+msgid "Contact"
+msgstr "Liên hệ"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_mate_create_department_line_wizard
+msgid "mate.create.department.line.wizard"
+msgstr "mate.create.department.line.wizard"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_mate_create_department_wizard
+msgid "mate.create.department.wizard"
+msgstr "mate.create.department.wizard"
+
+#. module: his_health_check
+#: model:ir.model,name:his_health_check.model_his_health_check_physician_role
+msgid "Physician Role"
+msgstr "Vai trò bác sĩ"
+
+#. module: his_health_check
+#: model_terms:ir.javascript
+msgid "Create new"
+msgstr "Tạo mới"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__create_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__create_uid
+msgid "Created by"
+msgstr "Tạo bởi"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__create_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__create_date
+msgid "Created on"
+msgstr "Tạo vào"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__write_uid
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật cuối bởi"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__write_date
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__write_date
+msgid "Last Updated on"
+msgstr "Cập nhật cuối vào"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__display_name
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: his_health_check
+#: model:ir.model.fields,field_description:his_health_check.field_his_patient__id
+#: model:ir.model.fields,field_description:his_health_check.field_his_physician__id
+msgid "ID"
+msgstr "ID"
+
+#. module: his_health_check
+#. odoo-python
+#: code:addons/his_health_check/models/department.py:0
+msgid""
+ "Cannot close room because there are %d patients waiting or being served."
+msgstr "Không thể đóng phòng vì có %d bệnh nhân đang chờ hoặc đang phục vụ."
+
+#. module: his_health_check
+#: model:ir.model.fields,help:mate.health.check.package,package_line_ids
+msgid "The services included in this health check package."
+msgstr "Các dịch vụ có trong gói kiểm tra sức khỏe này."
+
+#. module: his_health_check
+#: model:ir.model.fields,help:mate.health.check.package,gender
+msgid "The gender associated with this health check package."
+msgstr "Giới tính áp dụng cho gói kiểm tra sức khỏe này."
+
+#. module: his_health_check
+#: model:ir.model.fields,help:mate.health.check.package,customer_type
+msgid "The type of customer for this health check package."
+msgstr "Loại khách hàng áp dụng cho gói kiểm tra sức khỏe này."
+
+#. module: his_health_check
+#: model:ir.model.fields,help:mate.health.check.package.line,package_id
+msgid "The health check packages that include this service."
+msgstr "Các gói kiểm tra sức khỏe có chứa dịch vụ này."
+
+#. module: his_health_check
+#: model:ir.model.fields,help:mate.health.check.package.line,department_id
+msgid "The department where this health check service is provided."
+msgstr "Khoa thực hiện dịch vụ kiểm tra sức khỏe này."
+
+#. module: his_health_check
+#: model:ir.model.fields,help:mate.health.check.package.line,service_id
+msgid "The health check service provided in this package line."
+msgstr "Dịch vụ kiểm tra sức khỏe trong dòng gói này."
+
+#. module: his_health_check
+#: model:ir.model.fields,help:mate.health.check.package.line,specialty_id
+msgid "The specialty associated with this health check service."
+msgstr "Chuyên khoa liên quan đến dịch vụ kiểm tra sức khỏe này."
+
+#. module: his_health_check
+#: model:ir.model.fields,help:mate.health.check.package.line,group_id
+msgid "The group associated with this health check service."
+msgstr "Nhóm liên quan đến dịch vụ kiểm tra sức khỏe này."
+
+#. module: his_health_check
+#: model:ir.model.fields,help:mate.health.check.service,description
+msgid "Description of the health check service."
+msgstr "Mô tả dịch vụ kiểm tra sức khỏe."
+
+#. module: his_health_check
+#: model:ir.model.fields,help:mate.health.check.group,description
+msgid "Description of the health check group."
+msgstr "Mô tả nhóm kiểm tra sức khỏe."
+
+#. module: his_health_check
+#: model:ir.model.fields,help:mate.package.group.order,group_id
+msgid "The group associated with this sequence."
+msgstr "Nhóm liên quan đến thứ tự này."
+
+#. module: his_health_check
+#: model:ir.model.fields,help:mate.package.group.order,package_id
+msgid "The package associated with this sequence."
+msgstr "Gói liên quan đến thứ tự này."
+
+#. module: his_health_check
+#: model:ir.model.fields,help:hr.department,location
+msgid "The physical location of the department."
+msgstr "Vị trí thực tế của khoa."
+
+#. module: his_health_check
+#: model:ir.model.fields,help:hr.department,capacity
+msgid "The maximum number of patients that can be accommodated in this department."
+msgstr "Số lượng bệnh nhân tối đa mà khoa này có thể tiếp nhận."
+
+#. module: his_health_check
+#: model:ir.model.fields,help:hr.department,specialty_id
+msgid "The specialty associated with this department."
+msgstr "Chuyên khoa liên quan đến khoa này."
+
+#. module: his_health_check
+#: model:ir.model.fields,help:hr.department,code
+msgid "A unique code for the department, used for identification."
+msgstr "Mã duy nhất cho khoa, dùng để định danh."

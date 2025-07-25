@@ -1,0 +1,44 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_his_physician_user,Physician,model_his_physician,base.group_user,1,0,0,0
+access_his_patient_user,Patient,model_his_patient,his_base.group_his_user,1,1,0,0
+access_his_physician_specialty_user,Physician Specialty,model_physician_specialty,his_base.group_his_user,1,0,0,0
+access_his_physician_degree_user,Physician Degree,model_physician_degree,his_base.group_his_user,1,0,0,0
+access_his_clinic_physician_user,Physician,model_his_physician,his_base.group_his_user,1,0,0,0
+access_his_medicament_flavour_user,Clinic Medicament Flavour,model_medicament_flavour,his_base.group_his_user,1,0,0,0
+access_his_drug_form_user,Clinic Drug Form,model_drug_form,his_base.group_his_user,1,0,0,0
+access_his_active_comp_user,Clinic Active Comp,model_active_comp,his_base.group_his_user,1,0,0,0
+access_his_drug_company_user,Clinic Drug Company,model_drug_company,his_base.group_his_user,1,0,0,0
+access_his_drug_route_user,Clinic Drug Route,model_drug_route,his_base.group_his_user,1,0,0,0
+access_his_his_patient_user,Clinic Patient,model_his_patient,his_base.group_his_user,1,0,0,0
+access_his_res_users_user,Res Users,base.model_res_users,his_base.group_his_user,1,0,0,0
+access_his_res_partner_user,Partner User,base.model_res_partner,his_base.group_his_user,1,0,0,0
+access_his_app_consumable_user,Consumable Line,model_his_consumable_line,his_base.group_his_user,1,0,0,0
+access_his_clinic_religion_user,Clinic Religion,model_clinic_religion,his_base.group_his_user,1,0,0,0
+
+access_his_patient_manager,Patient,model_his_patient,his_base.group_his_manager,1,1,1,1
+access_his_physician_specialty_manager,Physician Specialty,model_physician_specialty,his_base.group_his_manager,1,1,1,1
+access_his_physician_degree_manager,Physician Degree,model_physician_degree,his_base.group_his_manager,1,1,1,1
+access_his_medicament_flavour_manager,Clinic Medicament Flavour,model_medicament_flavour,his_base.group_his_manager,1,1,1,1
+access_his_drug_form_manager,Clinic Drug Form,model_drug_form,his_base.group_his_manager,1,1,1,1
+access_his_active_comp_manager,Clinic Active Comp,model_active_comp,his_base.group_his_manager,1,1,1,1
+access_his_drug_company_manager,Clinic Drug Company,model_drug_company,his_base.group_his_manager,1,1,1,1
+access_his_drug_route_manager,Clinic Drug Route,model_drug_route,his_base.group_his_manager,1,1,1,1
+access_his_his_patient_manager,Clinic Patient,model_his_patient,his_base.group_his_manager,1,1,1,1
+access_his_res_partner_manager,Partner Manager,base.model_res_partner,his_base.group_his_manager,1,1,1,1
+access_his_clinic_physician_his_manager,Physician,model_his_physician,his_base.group_his_manager,1,1,0,0
+access_his_mixin,access_his_mixin,model_his_mixin,base.group_user,1,1,1,1
+access_his_user_stock_move,StockMove,stock.model_stock_move,his_base.group_his_user,1,0,0,0
+access_his_clinic_physician_erp_manager,physician,model_his_physician,base.group_erp_manager,1,1,1,1
+access_his_app_consumable_mana,Consumable Line Manager,model_his_consumable_line,his_base.group_his_manager,1,1,1,1
+access_his_clinic_religion_manager,Clinic Religion,model_clinic_religion,his_base.group_his_manager,1,1,1,1
+
+access_product_product_his_service_user,product.product Service Manager,product.model_product_product,his_base.group_manage_services,1,1,1,1
+access_product_template_his_service_user,product.template Service Manager,product.model_product_template,his_base.group_manage_services,1,1,1,1
+access_product_product_his_medicine_user,product.product Medicine Manager,product.model_product_product,his_base.group_manage_medicines,1,1,1,1
+access_product_template_his_medicine_user,product.template Medicine Manager,product.model_product_template,his_base.group_manage_medicines,1,1,1,1
+
+access_his_patient_tag,access_his_patient_tag,model_his_patient_tag,his_base.group_his_user,1,1,1,0
+access_his_patient_tag_manager,access_his_patient_tag_manager,model_his_patient_tag,his_base.group_his_manager,1,1,1,1
+
+access_his_therapeutic_effect,access_his_therapeutic_effect,model_his_therapeutic_effect,his_base.group_his_user,1,0,0,0
+access_his_therapeutic_effect_medicine_manager,access_his_therapeutic_effect_medicine_manager,model_his_therapeutic_effect,his_base.group_manage_medicines,1,1,1,1
